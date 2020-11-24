@@ -1,0 +1,201 @@
+CRITICAL - 2020-10-20 01:00:37 --> Undefined variable: session
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 46, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Logout()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 01:01:11 --> Call to a member function destroy() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Logout()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-20 01:07:42 --> Undefined index: uname
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 51, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Logout()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 01:08:47 --> Undefined index: uname
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 51, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Logout()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 01:15:12 --> Undefined index: uname
+#0 E:\GrievanceSystem\app\Views\templates\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 72, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\AdminController.php(81): view('templates/heade...')
+#4 E:\GrievanceSystem\app\Controllers\AdminController.php(36): App\Controllers\AdminController->render_view('RegisterUser', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->User()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}
+CRITICAL - 2020-10-20 02:05:17 --> Class 'App\Controllers\complaint_model' not found
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->AddDesignation()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-20 02:05:56 --> Undefined variable: com_data
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 85, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->AddDesignation()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 02:06:36 --> Undefined variable: com_data
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 86, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->AddDesignation()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 02:07:05 --> Undefined variable: Department
+#0 E:\GrievanceSystem\app\Views\Admin\AddDesignation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 37, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/AddDesign...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\AdminController.php(93): view('admin/AddDesign...', Array)
+#4 E:\GrievanceSystem\app\Controllers\AdminController.php(87): App\Controllers\AdminController->render_view('AddDesignation', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->AddDesignation()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}
+CRITICAL - 2020-10-20 03:06:39 --> Call to undefined method App\Controllers\AdminController::request()
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->InsertDesignation()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-20 03:10:09 --> Undefined variable: builder
+#0 E:\GrievanceSystem\app\Models\add_designation_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 11, Array)
+#1 E:\GrievanceSystem\app\Controllers\AdminController.php(94): App\Models\add_designation_model->Designation('1', 'sfsdgd')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->InsertDesignation()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-20 03:28:32 --> Class 'App\Controllers\register_model' not found
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-20 03:29:00 --> Undefined variable: gender_id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 67, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 03:29:37 --> Column 'Desig_Id' cannot be null
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\GrievanceSystem\app\Models\register_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\AdminController.php(68): App\Models\register_model->Register_User('GSUI00005', 'Bhupendra Sahu', '9977091530', '', '1', '4', NULL, '', '', '', '12345')
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-10-20 03:31:10 --> Column 'Desig_Id' cannot be null
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\GrievanceSystem\app\Models\register_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\AdminController.php(68): App\Models\register_model->Register_User('GSUI00005', 'Bhupendra Sahu', '9977091530', '', '1', '4', NULL, '', '', '', '12345')
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-10-20 03:33:40 --> Duplicate entry '9977091530' for key 'PRIMARY'
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `lo...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 E:\GrievanceSystem\app\Models\register_model.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\AdminController.php(68): App\Models\register_model->Register_User('GSUI00005', 'Bhupendra Sahu', '9977091530', '', '1', '4', '1', '', '', '', '12345')
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-10-20 03:34:29 --> Duplicate entry '9977091530' for key 'PRIMARY'
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `lo...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 E:\GrievanceSystem\app\Models\register_model.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\AdminController.php(68): App\Models\register_model->Register_User('GSUI00005', 'Bhupendra Sahu', '9977091530', '', '1', '4', '1', '', '', '', '12345')
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-10-20 05:21:58 --> Array to string conversion
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\GrievanceSys...', 27, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Login()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 05:23:29 --> Undefined variable: data
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 22, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowComplaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-20 06:02:41 --> Undefined variable: Department
+#0 E:\GrievanceSystem\app\Views\Admin\ShowComplaint.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 96, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/showcompl...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\AdminController.php(120): view('admin/showcompl...', Array)
+#4 E:\GrievanceSystem\app\Controllers\AdminController.php(30): App\Controllers\AdminController->render_view('showcomplaint', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowComplaint()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}
+CRITICAL - 2020-10-20 06:09:08 --> Undefined variable: Department
+#0 E:\GrievanceSystem\app\Views\Admin\ShowComplaint.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 96, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/showcompl...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\AdminController.php(120): view('admin/showcompl...', Array)
+#4 E:\GrievanceSystem\app\Controllers\AdminController.php(30): App\Controllers\AdminController->render_view('showcomplaint', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowComplaint()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}

@@ -1,0 +1,332 @@
+CRITICAL - 2020-10-09 01:03:27 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 27, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:11:03 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 28, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:35:09 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 27, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:45:26 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 27, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:49:25 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 29, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:50:48 --> Function name must be a string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 01:50:52 --> Function name must be a string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 01:52:34 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 29, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:52:37 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 29, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:53:00 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 28, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 01:53:48 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 01:54:34 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 01:55:18 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 01:56:25 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 01:56:27 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:13:03 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 33, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:13:24 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 33, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:13:45 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:14:13 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:15:14 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:17:09 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:18:27 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 33, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:19:10 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:20:32 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:20:58 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:21:05 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:21:40 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 30, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:22:47 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 30, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:23:46 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:24:09 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:24:13 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:26:41 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:28:53 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:28:54 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:28:55 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:29:43 --> Call to undefined method CodeIgniter\Router\RouteCollection::request()
+#0 E:\GrievanceSystem\system\CodeIgniter.php(780): require()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:29:54 --> Call to undefined method CodeIgniter\Router\RouteCollection::getpost()
+#0 E:\GrievanceSystem\system\CodeIgniter.php(780): require()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:29:59 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:30:26 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in E:\GrievanceSystem\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 E:\GrievanceSystem\system\CodeIgniter.php(890): App\Controllers\UserController->__construct()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-09 02:31:10 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 31, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:31:43 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 33, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:37:53 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 32, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:40:16 --> Undefined property: App\Controllers\UserController::$input
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 32, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-09 02:40:57 --> Undefined property: App\Controllers\UserController::$load
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 44, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}

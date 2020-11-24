@@ -1,0 +1,125 @@
+CRITICAL - 2020-11-18 02:04:20 --> Undefined index: ImageName
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 168, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-18 02:04:36 --> Undefined index: ImageName
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 168, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-18 02:09:32 --> Call to a member function getBasename() on string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-18 02:11:01 --> Call to a member function getBasename() on string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-18 02:12:07 --> Call to a member function getBasename() on string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-18 02:15:15 --> Call to a member function getBasename() on string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-18 02:40:17 --> Call to a member function getMimeType() on string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-18 03:10:14 --> mime_content_type(Laptop.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'E:\\GrievanceSys...', 169, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(169): mime_content_type('Laptop.jpg')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-18 03:23:18 --> mime_content_type(Laptop.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'E:\\GrievanceSys...', 169, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(169): mime_content_type('Laptop.jpg')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-18 03:50:57 --> Undefined variable: Upload_Img
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 177, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-18 03:53:12 --> Undefined variable: Upload_Img
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 177, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-18 04:00:25 --> Call to a member function move() on string
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-18 04:57:55 --> move_uploaded_file(/uploads/images/1605697075.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'E:\\GrievanceSys...', 161, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(161): move_uploaded_file('C:\\xampp\\tmp\\ph...', '/uploads/images...')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-18 23:40:08 --> Undefined variable: upload
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 155, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-18 23:40:11 --> Undefined variable: upload
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 155, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-18 23:40:17 --> Undefined variable: upload
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 155, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->TempImageUpload()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}

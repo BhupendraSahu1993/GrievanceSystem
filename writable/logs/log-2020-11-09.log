@@ -1,0 +1,34 @@
+CRITICAL - 2020-11-09 01:57:07 --> Unknown column 'Type_of_Issue' in 'field list'
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\GrievanceSystem\app\Models\complaint_model.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\UserController.php(112): App\Models\complaint_model->Register_Complaint('CT2020110900002', '1', '', Array, '2', '1', ';iohfnasiofioas...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-09 02:09:58 --> Unknown column 'Tech_Type' in 'field list'
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\GrievanceSystem\app\Models\complaint_model.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\UserController.php(112): App\Models\complaint_model->Register_Complaint('CT2020110900002', '1', '', Array, '2', '1', 'jksa s;hios sak...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-09 05:17:38 --> Undefined property: App\Controllers\UserController::$file
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 41, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}

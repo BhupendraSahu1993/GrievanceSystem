@@ -1,0 +1,452 @@
+CRITICAL - 2020-10-21 01:31:30 --> Class 'App\Controllers\Time' not found
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-21 01:32:03 --> Undefined variable: request
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 125, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 01:39:39 --> Undefined variable: Update
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 127, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 01:40:24 --> Undefined variable: User_Id
+#0 E:\GrievanceSystem\app\Models\show_complaint_model.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 42, Array)
+#1 E:\GrievanceSystem\app\Controllers\AdminController.php(127): App\Models\show_complaint_model->Complaint_Accepted('CT2020101600001', Object(CodeIgniter\I18n\Time), 2, '::1')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-21 01:42:37 --> Undefined variable: User_Id
+#0 E:\GrievanceSystem\app\Models\show_complaint_model.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 42, Array)
+#1 E:\GrievanceSystem\app\Controllers\AdminController.php(128): App\Models\show_complaint_model->Complaint_Accepted('CT2020101600001', Object(CodeIgniter\I18n\Time), 2, '::1')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-21 01:43:14 --> Undefined variable: statusVal
+#0 E:\GrievanceSystem\app\Models\show_complaint_model.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 47, Array)
+#1 E:\GrievanceSystem\app\Controllers\AdminController.php(128): App\Models\show_complaint_model->Complaint_Accepted('CT2020101600001', Object(CodeIgniter\I18n\Time), 2, '::1', 'GSUI00005')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-21 01:46:49 --> Undefined variable: statusVal
+#0 E:\GrievanceSystem\app\Models\show_complaint_model.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 47, Array)
+#1 E:\GrievanceSystem\app\Controllers\AdminController.php(128): App\Models\show_complaint_model->Complaint_Accepted('CT2020101600001', Object(CodeIgniter\I18n\Time), 2, '::1', 'GSUI00005')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->UpdateComplaintStatus()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-21 01:59:46 --> Call to undefined method App\Models\admin_model::Get_Max_User_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Model->__call('Get_Max_User_Id', Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:01:01 --> Call to undefined method App\Models\admin_model::Get_Max_User_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Model->__call('Get_Max_User_Id', Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:01:18 --> Call to undefined method App\Models\admin_model::Get_Max_User_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Model->__call('Get_Max_User_Id', Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:02:33 --> Call to undefined method App\Models\admin_model::Get_Max_User_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Model->__call('Get_Max_User_Id', Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:02:52 --> Call to undefined method App\Models\admin_model::Get_Max_User_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Model->__call('Get_Max_User_Id', Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:03:54 --> Undefined variable: status
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 56, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:09:26 --> Call to undefined method App\Models\admin_model::Get_Max_User_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(56): CodeIgniter\Model->__call('Get_Max_User_Id', Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:10:36 --> Undefined variable: parameter_Login
+#0 E:\GrievanceSystem\app\Models\admin_model.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 17, Array)
+#1 E:\GrievanceSystem\app\Controllers\AdminController.php(78): App\Models\admin_model->Admin_Register_User('GSUI00001', 'Bhupendra Sahu', '9876543210', '', '1', '1', '1', '', '', '', '12345')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->RegisterUser()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-21 02:15:12 --> Undefined variable: status
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 70, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Register()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 02:18:08 --> Undefined variable: desg_Id
+#0 E:\GrievanceSystem\app\Models\register_model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 19, Array)
+#1 E:\GrievanceSystem\app\Controllers\HomeController.php(93): App\Models\register_model->Register_User('GSUI00006', 'Manish', '1234567890', '1', '1', '7', '2', '1', '1', 'sdbjkasgfjsbfjk...', '123456')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Register()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-21 03:35:08 --> Call to undefined method App\Controllers\DepartmentController::render_view()
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-21 03:36:01 --> Invalid file: admin/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/ShowCompl...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/ShowCompl...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('admin/ShowCompl...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:36:17 --> Invalid file: admin/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/ShowCompl...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/ShowCompl...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('admin/ShowCompl...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:37:52 --> Invalid file: dept/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/ShowCompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/ShowCompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/ShowCompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:38:05 --> Invalid file: dept/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/ShowCompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/ShowCompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/ShowCompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:40:16 --> Invalid file: dept/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/ShowCompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/ShowCompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/ShowCompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:40:48 --> Invalid file: dept/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/ShowCompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/ShowCompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/ShowCompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:41:34 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:42:09 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:43:19 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:43:50 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:46:05 --> Invalid file: dept/showcomplainttodept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaintto...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:51:56 --> Invalid file: dept/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/ShowCompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/ShowCompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/ShowCompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:54:14 --> Invalid file: dept/ShowComplaintToDept.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/ShowCompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/ShowCompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/ShowCompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:54:42 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:56:36 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:58:12 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(25): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 03:59:51 --> Undefined variable: com_data
+#0 E:\GrievanceSystem\app\Controllers\DepartmentController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 19, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 04:00:30 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 04:02:23 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 04:06:41 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 04:07:08 --> Invalid file: dept/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dept/showcompla...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('dept/showcompla...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('dept/showcompla...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 04:07:40 --> Invalid file: department/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('department/show...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('department/show...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('department/show...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 05:01:38 --> Invalid file: department/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('department/show...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('department/show...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('department/show...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 05:03:56 --> Invalid file: department/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('department/show...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('department/show...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('department/show...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 05:04:30 --> Invalid file: department/showcomplaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('department/show...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('department/show...', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('department/show...', Array)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('showcomplaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-21 05:45:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 E:\GrievanceSystem\app\Controllers\DepartmentController.php(17): App\Models\show_complaint_model->Team_Member()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-21 05:47:49 --> Undefined index: Sno
+#0 E:\GrievanceSystem\app\Views\Department\ShowComplaintToDept.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 101, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('department/Show...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('department/Show...', Array)
+#4 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}
+CRITICAL - 2020-10-21 05:48:08 --> Undefined index: Sno
+#0 E:\GrievanceSystem\app\Views\Department\ShowComplaintToDept.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 101, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('department/Show...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\DepartmentController.php(26): view('department/Show...', Array)
+#4 E:\GrievanceSystem\app\Controllers\DepartmentController.php(20): App\Controllers\DepartmentController->render_view('ShowComplaintTo...', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\DepartmentController->ShowComplaintToDept()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartmentController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}

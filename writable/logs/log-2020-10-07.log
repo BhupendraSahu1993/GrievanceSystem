@@ -1,0 +1,180 @@
+CRITICAL - 2020-10-07 02:37:06 --> syntax error, unexpected '>', expecting end of file
+#0 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 E:\GrievanceSystem\app\Controllers\Pages.php(17): view('templates/heade...', Array)
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-07 03:13:34 --> Invalid file: Home.Login
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.Login')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('Home.Login', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\Home.php(7): view('Home.Login')
+#3 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#8 {main}
+CRITICAL - 2020-10-07 04:48:13 --> Invalid file: Admin.Dashboard
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin.Dashboard')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('Admin.Dashboard', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\AdminController.php(8): view('Admin.Dashboard')
+#3 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->index()
+#4 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#8 {main}
+CRITICAL - 2020-10-07 04:48:35 --> Invalid file: User.Dashboard
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User.Dashboard')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('User.Dashboard', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\UserController.php(8): view('User.Dashboard')
+#3 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#4 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#8 {main}
+CRITICAL - 2020-10-07 04:57:59 --> Invalid file: User/Dashboard.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/Dashboard....')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('User/Dashboard', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\UserController.php(8): view('User/Dashboard')
+#3 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#4 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#8 {main}
+CRITICAL - 2020-10-07 04:59:37 --> Invalid file: User/Dashboard.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/Dashboard....')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('User/Dashboard', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\UserController.php(8): view('User/Dashboard')
+#3 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#4 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#8 {main}
+CRITICAL - 2020-10-07 05:01:22 --> Invalid file: User/Dashboard.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/Dashboard....')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('User/Dashboard', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\UserController.php(8): view('User/Dashboard')
+#3 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->index()
+#4 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#8 {main}
+CRITICAL - 2020-10-07 05:58:19 --> Call to a member function render() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-07 05:58:36 --> Call to a member function render() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-07 06:00:17 --> Call to a member function view() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-10-07 06:14:51 --> Argument 2 passed to view() must be of the type array, null given, called in E:\GrievanceSystem\app\Controllers\Pages.php on line 26
+#0 E:\GrievanceSystem\app\Controllers\Pages.php(26): view('templates/heade...', NULL)
+#1 E:\GrievanceSystem\app\Controllers\Pages.php(16): App\Controllers\Pages->render_view('Dashboard')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-07 06:14:54 --> Argument 2 passed to view() must be of the type array, null given, called in E:\GrievanceSystem\app\Controllers\Pages.php on line 26
+#0 E:\GrievanceSystem\app\Controllers\Pages.php(26): view('templates/heade...', NULL)
+#1 E:\GrievanceSystem\app\Controllers\Pages.php(16): App\Controllers\Pages->render_view('Dashboard')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-07 06:15:17 --> Argument 2 passed to view() must be of the type array, null given, called in E:\GrievanceSystem\app\Controllers\Pages.php on line 26
+#0 E:\GrievanceSystem\app\Controllers\Pages.php(26): view('templates/heade...', NULL)
+#1 E:\GrievanceSystem\app\Controllers\Pages.php(16): App\Controllers\Pages->render_view('Dashboard')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-07 06:15:51 --> Argument 2 passed to view() must be of the type array, null given, called in E:\GrievanceSystem\app\Controllers\Pages.php on line 26
+#0 E:\GrievanceSystem\app\Controllers\Pages.php(26): view('templates/heade...', NULL)
+#1 E:\GrievanceSystem\app\Controllers\Pages.php(16): App\Controllers\Pages->render_view('Dashboard')
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\Pages->view()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-10-07 06:23:35 --> Undefined variable: data
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 17, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-07 06:24:10 --> Undefined variable: page
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 16, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-07 06:24:48 --> Undefined variable: data
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 18, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-07 06:25:17 --> Invalid file: pages/Complaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Complaint...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('pages/Complaint', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\UserController.php(24): view('pages/Complaint', Array)
+#3 E:\GrievanceSystem\app\Controllers\UserController.php(18): App\Controllers\UserController->render_view('Complaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->complaint()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-07 06:27:42 --> Invalid file: pages/Complaint.php
+#0 E:\GrievanceSystem\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/Complaint...')
+#1 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('pages/Complaint', Array, true)
+#2 E:\GrievanceSystem\app\Controllers\UserController.php(24): view('pages/Complaint', Array)
+#3 E:\GrievanceSystem\app\Controllers\UserController.php(18): App\Controllers\UserController->render_view('Complaint', Array)
+#4 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->complaint()
+#5 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-07 06:29:17 --> Undefined variable: data
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 18, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}

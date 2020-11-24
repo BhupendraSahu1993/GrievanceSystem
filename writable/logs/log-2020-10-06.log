@@ -1,0 +1,22 @@
+CRITICAL - 2020-10-06 05:46:59 --> syntax error, unexpected '}', expecting ';'
+#0 E:\GrievanceSystem\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\GrievanceSys...')
+#1 E:\GrievanceSystem\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\GrievanceSystem\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}
+CRITICAL - 2020-10-06 05:49:26 --> syntax error, unexpected '}', expecting ';'
+#0 E:\GrievanceSystem\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\GrievanceSys...')
+#1 E:\GrievanceSystem\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\GrievanceSystem\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#9 {main}

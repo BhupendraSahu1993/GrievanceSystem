@@ -1,0 +1,131 @@
+CRITICAL - 2020-11-03 00:18:17 --> Undefined variable: file
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 78, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 00:19:47 --> Undefined property: App\Controllers\UserController::$file
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\GrievanceSys...', 78, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 00:22:31 --> Use of undefined constant originalMimeType - assumed 'originalMimeType' (this will throw an Error in a future version of PHP)
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\GrievanceSys...', 79, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 00:33:33 --> Call to a member function getClientMimeType() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-03 00:35:08 --> Call to a member function getMimeType() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-03 00:47:41 --> Undefined offset: 0
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\GrievanceSys...', 80, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 00:48:23 --> Call to a member function getMimeType() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-03 00:58:44 --> Undefined variable: file
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 82, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 00:59:30 --> Call to a member function getBasename() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-03 01:01:31 --> Argument 1 passed to CodeIgniter\Files\File::__construct() must be of the type string, array given, called in E:\GrievanceSystem\app\Controllers\UserController.php on line 80
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(80): CodeIgniter\Files\File->__construct(Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 01:16:28 --> Call to a member function getName() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-03 01:25:51 --> Call to a member function isValid() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-03 01:31:01 --> Unknown column 'cmp.Dept_Id' in 'where clause'
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `SNo`, `...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SNo`, `...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SNo`, `...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `SNo`, `...', Array, false)
+#4 E:\GrievanceSystem\app\Models\show_complaint_model.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\GrievanceSystem\app\Controllers\AdminController.php(61): App\Models\show_complaint_model->Show_Complaint('1')
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowComplaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-03 02:13:27 --> Undefined index: Application
+#0 E:\GrievanceSystem\app\Views\Admin\ShowComplaint.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 53, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/showcompl...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\AdminController.php(213): view('admin/showcompl...', Array)
+#4 E:\GrievanceSystem\app\Controllers\AdminController.php(62): App\Controllers\AdminController->render_view('showcomplaint', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowComplaint()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}
+CRITICAL - 2020-11-03 04:19:45 --> Use of undefined constant Approval - assumed 'Approval' (this will throw an Error in a future version of PHP)
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\GrievanceSys...', 35, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Login()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-03 04:35:00 --> Undefined offset: 0
+#0 E:\GrievanceSystem\app\Controllers\HomeController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\GrievanceSys...', 36, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\HomeController->Login()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}

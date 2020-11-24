@@ -1,0 +1,177 @@
+CRITICAL - 2020-11-19 00:06:38 --> Call to a member function getMimeType() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 00:06:56 --> Call to a member function getMimeType() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 00:09:23 --> Call to a member function getMimeType() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 00:09:35 --> Call to a member function getMimeType() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 00:18:44 --> Call to a member function getMimeType() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 00:44:06 --> Call to a member function getMimeType() on null
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 00:45:36 --> Call to a member function getMimeType() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}
+CRITICAL - 2020-11-19 01:09:17 --> Undefined variable: file
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 90, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-19 03:17:09 --> Illegal string offset 'name'
+#0 E:\GrievanceSystem\app\Models\complaint_model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'E:\\GrievanceSys...', 19, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900007', '1', '1', Array, '', 'hilassupo sap f...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-19 03:21:27 --> Operand should contain 1 column(s)
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\GrievanceSystem\app\Models\complaint_model.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '2', Array, '1', 'nklsd fasf jaso...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-19 03:25:46 --> Operand should contain 1 column(s)
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\GrievanceSystem\app\Models\complaint_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'jhks uujspouf s...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-19 03:31:43 --> Operand should contain 1 column(s)
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\GrievanceSystem\app\Models\complaint_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'jhlas ashfas hf...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-19 04:08:02 --> Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP)
+#0 E:\GrievanceSystem\app\Models\complaint_model.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\GrievanceSys...', 13, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'jksd sihasihfis...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-19 04:08:20 --> Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP)
+#0 E:\GrievanceSystem\app\Models\complaint_model.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\GrievanceSys...', 13, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'jksd sihasihfis...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-19 04:09:09 --> Use of undefined constant count - assumed 'count' (this will throw an Error in a future version of PHP)
+#0 E:\GrievanceSystem\app\Models\complaint_model.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\GrievanceSys...', 13, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'jksd sihasihfis...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-19 04:15:17 --> Unknown column 'User_Id' in 'field list'
+#0 E:\GrievanceSystem\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `co...')
+#1 E:\GrievanceSystem\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\GrievanceSystem\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\GrievanceSystem\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\GrievanceSystem\app\Models\complaint_model.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'bjkas sihashio ...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#6 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#7 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#11 {main}
+CRITICAL - 2020-11-19 04:16:23 --> Undefined offset: 4
+#0 E:\GrievanceSystem\app\Models\complaint_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\GrievanceSys...', 22, Array)
+#1 E:\GrievanceSystem\app\Controllers\UserController.php(149): App\Models\complaint_model->Register_Complaint('CT2020111900001', '1', '1', Array, '', 'bjlsa shdhasid ...', 1, Object(CodeIgniter\I18n\Time), '::1', 'GSUI00005', 2)
+#2 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#3 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#7 {main}
+CRITICAL - 2020-11-19 04:25:09 --> Undefined variable: img
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 118, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-19 04:26:18 --> Undefined variable: type
+#0 E:\GrievanceSystem\app\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 111, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-11-19 04:28:53 --> Call to a member function getMimeType() on array
+#0 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\UserController->submit_complaint()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#5 {main}

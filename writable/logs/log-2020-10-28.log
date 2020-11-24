@@ -1,0 +1,100 @@
+CRITICAL - 2020-10-28 01:18:41 --> Too few arguments to function App\Models\show_complaint_model::Show_Solved_Complaint_To_Admin(), 0 passed in E:\GrievanceSystem\app\Controllers\AdminController.php on line 36 and exactly 1 expected
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(36): App\Models\show_complaint_model->Show_Solved_Complaint_To_Admin()
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowSolvedComplaint()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 01:19:06 --> Undefined variable: showComplaint
+#0 E:\GrievanceSystem\app\Views\Admin\ShowSolvedComplaint.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 46, Array)
+#1 E:\GrievanceSystem\system\View\View.php(246): include('E:\\GrievanceSys...')
+#2 E:\GrievanceSystem\system\Common.php(1119): CodeIgniter\View\View->render('admin/ShowSolve...', Array, true)
+#3 E:\GrievanceSystem\app\Controllers\AdminController.php(159): view('admin/ShowSolve...', Array)
+#4 E:\GrievanceSystem\app\Controllers\AdminController.php(37): App\Controllers\AdminController->render_view('ShowSolvedCompl...', Array)
+#5 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->ShowSolvedComplaint()
+#6 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#10 {main}
+CRITICAL - 2020-10-28 01:49:33 --> Undefined index: ticketId
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 158, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 01:49:39 --> Undefined index: ticketId
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 158, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 01:50:15 --> Undefined index: ticket_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 158, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 01:51:23 --> Undefined index: ticket_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 158, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 01:51:31 --> Undefined index: ticket_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 158, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 01:52:13 --> Undefined index: ticket_Id
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\GrievanceSys...', 158, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 02:27:57 --> Undefined variable: ticketId
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 165, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 02:27:59 --> Undefined variable: ticketId
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 165, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 02:27:59 --> Undefined variable: ticketId
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 165, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
+CRITICAL - 2020-10-28 02:28:07 --> Undefined variable: ticketId
+#0 E:\GrievanceSystem\app\Controllers\AdminController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\GrievanceSys...', 165, Array)
+#1 E:\GrievanceSystem\system\CodeIgniter.php(918): App\Controllers\AdminController->SolveComplaintSendToUser()
+#2 E:\GrievanceSystem\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 E:\GrievanceSystem\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\GrievanceSystem\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\GrievanceSystem\system\Commands\Server\rewrite.php(34): require_once('E:\\GrievanceSys...')
+#6 {main}
